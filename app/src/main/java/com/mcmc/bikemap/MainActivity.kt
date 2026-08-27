@@ -84,7 +84,7 @@ class MainActivity : AppCompatActivity(), SensorEventListener {
     private val longitudeList: MutableList<String> = mutableListOf()
     private val timestampList: MutableList<String> = mutableListOf()
 
-    private val apiURL = URL("http://192.168.178.36:5000/bike_map_api")
+    private val apiURL = URL("PUT API ENDPOINT HERE")
 
     private val measureTask = object : Runnable {
         override fun run(){
